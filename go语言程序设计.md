@@ -135,5 +135,5 @@ fmt.Printf("%T\n", w) // ”< nil >”
 w = os.Stdout
 fmt.Printf("%T\n", w) // "OS.File"
 w = new(bytes.Buffer)
-fmt.Printf （”%T\n ”， w) // "*bytes.Buffer"
+fmt.Printf("%T\n", w) // "*bytes.Buffer"
 ```
