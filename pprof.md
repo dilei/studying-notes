@@ -2,7 +2,7 @@
 go程序性能分析工具，主要有三种采样数据的方式:
 - runtime/pprof: 使用命令行程序的数据采集
 - net/http/pprof: 通过http程序的数据采集
-- go test: 通常是使用前两种导出采集数据的文件，进行进一步的分析
+- go test: 针对函数进行数据采集
 
 本文使用第二种进行数据采集，net/http/pprof
 
