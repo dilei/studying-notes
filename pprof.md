@@ -15,15 +15,15 @@ go程序性能分析工具，主要有三种采样数据的方式:
 1. 开始监听你的服务（首先你要启动你的服务）
     ```
     // 监听10s
-    go tool pprof http://10.5.56.78:8088/debug/pprof/profile?seconds=10
+    go tool pprof http://10.5.XX.XX:8088/debug/pprof/profile?seconds=10
     ```
     注意：seconds的值必须小于server的WriteTimeOut,否则直接报错
     > profile duration exceeds server's WriteTimeout
 
 1. example:
     ```
-    [root@ProdApiST5678 ~]# go tool pprof http://10.5.XX.XX:8088/debug/pprof/profile?seconds=10
-      Fetching profile over HTTP from http://10.5.56.78:8088/debug/pprof/profile?seconds=10
+    [root@ProdApiST ~]# go tool pprof http://10.5.XX.XX:8088/debug/pprof/profile?seconds=10
+      Fetching profile over HTTP from http://10.5.XX.XX:8088/debug/pprof/profile?seconds=10
       Saved profile in /root/pprof/pprof.main.samples.cpu.002.pb.gz
       File: main
       Type: cpu
