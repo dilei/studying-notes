@@ -52,3 +52,5 @@ go程序性能分析工具，主要有三种采样数据的方式:
     // 生成svg的工具dot（centos为例安装）
     yum install graphviz
     ```
+1. 结果
+![pprof](/images/web.svg)
