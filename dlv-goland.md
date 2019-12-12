@@ -17,3 +17,5 @@ dlv debug --headless --listen=:2345 --api-version=2 --accept-multiclient -- -c /
 dlv --listen=:2345 --headless=true --api-version=2 --accept-multiclient exec ./main -- -c /root/gopath/src/prod-api/configs/config_online.yaml -l info
 ```
 - 其余步骤同上
+### 截图
+![image](/images/G\(3H@2YF94M81\(Q59DP~T_L.png)
