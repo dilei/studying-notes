@@ -1,0 +1,1 @@
+主线程下的goroutine是平级关系，goroutine的生命周期是关联在main下，和goroutine存在的其他方法生命周期无关
